@@ -1,0 +1,136 @@
+#principal{
+  width: 900px;
+  height: auto; overflow: hidden;
+  border: 0px solid #000;
+  margin: auto;
+  }
+  body{
+    height:1300px;
+    background-image: url(https://cdn.hipwallpaper.com/i/79/56/Q7HCpv.png);
+        
+  
+}
+
+header{
+  width: 900px;
+  height: 100px;
+  border: 0px solid #000;
+  background-color: #fafafa;
+}
+
+#logo{
+  width: 200px;
+  height: 100px;
+  border: 0px solid #000;
+  float: left; font-family: sans-serif;
+}
+
+.titulo{
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.sub-titulo{
+  font-size: 14px;
+  margin-top: -20px;
+}
+
+.menu{
+  width: 460px;
+  height: 40px;
+  border: 1px solid #ccc;
+  float: right;
+  margin-top: 40px;
+  background: #006699;
+}
+
+.menu ul{}
+
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 0px solid #ccc;
+  color: #fff; 
+}
+
+.menu ul li a:hover{
+  background: #fff;
+  color: #006699;
+  transition: background 1s, color 1s;
+}
+
+
+.parrafo{
+  color: #212121;
+  text-align: justify;
+}
+.img{
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+
+#der{
+  width: 290px;
+  height: 300px;
+  border: 1px solid #ccc;
+  float: right;
+  color: 
+}
+
+footer{
+  width: 900px;
+  height: 100px;
+  text-align: center;
+}
+
+#footer p{
+  width: 500px;
+}
+
+/*------------contacto------------------------*/
+#formulario{
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: left
+}
+
+#mapa{
+  width: 432px;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding: 5px;
+  float: right;
+}
+
+input[type="text"]{
+  border: 1px solid #c1c1c1; padding: 6px;
+  width: 97%;
+}
+
+textarea{
+  border: 1px solid #c1c1c1; padding: 6px;
+  width: 97%;
+}
+
+.enviar{
+  padding: 10px 20px;
+  background: #006699;
+  color: #fdfdfd;
+  font-size: 16px;
+}
+
+#form{}
+
+#datos{
+  margin-top: 30px;
+}
